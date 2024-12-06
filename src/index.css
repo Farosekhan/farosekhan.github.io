@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .btns {
+    @apply border m-5 bg-red-400 text-center  w-32 h-10 rounded-3xl;
+  }
+}
